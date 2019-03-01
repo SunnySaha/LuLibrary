@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/maroon"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginverification"
+        android:text="@string/verified"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/loginemailId"
+        android:hint="Enter Email"
+        android:textColorHint="@color/Cyan"
+        android:textColor="@color/Black"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/background_shape"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/loginpass"
+        android:hint="Enter Password"
+        android:textColorHint="@color/Cyan"
+        android:textColor="@color/Black"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/background_shape"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginforgetpass"
+        android:text="Forget Password"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginsigninButton"
+        android:text="Sign In"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:background="@drawable/background_shape"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registernow"
+        android:text="Register Now"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginRight="15dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+
+        />
+
+</LinearLayout>

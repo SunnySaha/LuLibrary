@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949551119351",
+    "firebase_url": "https://lulibrary-89c70.firebaseio.com",
+    "project_id": "lulibrary-89c70",
+    "storage_bucket": "lulibrary-89c70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949551119351:android:c02a4e3a0ce9dc06",
+        "android_client_info": {
+          "package_name": "com.example.lulibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949551119351-0ffh3li7cud4asatvqtrjkvjbt9j8sb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lulibrary",
+            "certificate_hash": "f29475e22b1f28a9314678d158b7b5a94b864d4f"
+          }
+        },
+        {
+          "client_id": "949551119351-n95hr2uojukolm5jnul88co24aq52bke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLRbiGXKrQaj2SQ2JpCYxVT1oTZWuI5TA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949551119351-n95hr2uojukolm5jnul88co24aq52bke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

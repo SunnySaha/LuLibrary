@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LU Library</string>
+
+
+    <array name="departments_name">
+
+        <item>Chose Your Department</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>CE</item>
+        <item>Architecture</item>
+        <item>English</item>
+        <item>BBA</item>
+
+    </array>
+
+    <string name="verified">Unverified Registration. Check Email to verify</string>
+</resources>
